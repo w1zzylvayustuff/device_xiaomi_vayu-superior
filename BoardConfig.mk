@@ -10,6 +10,8 @@ include device/xiaomi/sm8150-common/BoardConfigCommon.mk
 DEVICE_PATH := device/xiaomi/vayu
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := vayu,bhima
